@@ -28,7 +28,7 @@ const Services = () => {
           <ServicesIcon src={Icon2} />
           <ServicesH2>Virtual Offices</ServicesH2>
           <ServicesP>
-            You can access our platform online anywhere in the world.
+            You can access our platform online anywhere in the world .
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
