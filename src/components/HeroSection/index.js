@@ -26,9 +26,9 @@ function HeroSection() {
         <VideoBg playsInline autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1>JoyTech.World </HeroH1>
+        <HeroH1>JoyTech </HeroH1>
         <HeroP>
-         full-stack technical needs for the world
+         One stop shop for your digital business
         </HeroP>
         <HeroBtnWrapper>
           <Button

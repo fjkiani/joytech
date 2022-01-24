@@ -1,7 +1,15 @@
 import React from 'react';
-import Icon1 from '../../images/coding.png';
-import Icon2 from '../../images/svg-3.svg';
-import Icon3 from '../../images/svg-5.svg';
+import coding from '../../images/coding.png';
+import money from '../../images/money.png';
+import ecom from '../../images/ecom.png';
+import noCode from '../../images/noCode.png';
+import ads from '../../images/ads.png';
+import support from '../../images/support.png';
+import video from '../../images/video.png';
+import robot from '../../images/robot.png';
+
+
+
 import {
   ServicesContainer,
   ServicesH1,
@@ -18,31 +26,59 @@ const Services = () => {
       <ServicesH1>Our Services</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
-          <ServicesIcon src={Icon1} />
+          <ServicesIcon src={coding} />
           <ServicesH2>Web Development</ServicesH2>
           <ServicesP>
-            We build compelling websites for businesses 
+            We build compelling SEO optimized websites for businesses 
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon2} />
-          <ServicesH2>Virtual Offices</ServicesH2>
+          <ServicesIcon src={money} />
+          <ServicesH2>Point of sale integration</ServicesH2>
           <ServicesP>
-            You can access our platform online anywhere in the world .
+            We implement POS solutions for your business and with integrations into your website 
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon3} />
-          <ServicesH2>Premium Benefits</ServicesH2>
+          <ServicesIcon src={ecom} />
+          <ServicesH2>eCommerce Solutions</ServicesH2>
           <ServicesP>
-            Unlock our special membership card that returns 5% cash back.
+           We build eCommerce websites to empower entrepreneurs 
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon3} />
-          <ServicesH2>Premium Benefits</ServicesH2>
+          <ServicesIcon src={noCode} />
+          <ServicesH2>No Code or Low Code Websites</ServicesH2>
           <ServicesP>
-            Unlock our special membership card that returns 5% cash back.
+            We build websites that can be fully managed by your team without a developer
+          </ServicesP>
+        </ServicesCard>
+        <ServicesCard>
+          <ServicesIcon src={ads} />
+          <ServicesH2>Targeted Ad Solutions</ServicesH2>
+          <ServicesP>
+            We implement ads for your business so you can be discovered by your desired audience
+          </ServicesP>
+        </ServicesCard>
+        <ServicesCard>
+          <ServicesIcon src={support} />
+          <ServicesH2>Dedicated Account Support</ServicesH2>
+          <ServicesP>
+            We provide dedicated account support to track and progress your business growth
+          </ServicesP>
+        </ServicesCard>
+        <ServicesCard>
+          <ServicesIcon src={video} />
+          <ServicesH2>Content Creation</ServicesH2>
+          <ServicesP>
+            We provide full services for content creation from photography and videography to present your story
+          </ServicesP>
+        </ServicesCard>
+        <ServicesCard>
+          <ServicesIcon src={robot} />
+          <ServicesH2>Automated Services</ServicesH2>
+          <ServicesP>
+            We provide automated services for scheduling your social media content, newsletter subscription 
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
